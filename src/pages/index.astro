@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import ProfileSidebar from "../components/ProfileSidebar.astro";
+import { siteConfig } from "../site.config";
+import HomeContent from "../content/home.md";
+---
+
+<BaseLayout title={siteConfig.title} description={siteConfig.description}>
+  <Header />
+  <main id="main" class="site-shell">
+    <ProfileSidebar />
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          <HomeContent />
+        </section>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <p>{siteConfig.footer.text}</p>
+  </footer>
+</BaseLayout>

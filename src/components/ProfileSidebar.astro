@@ -1,0 +1,31 @@
+---
+import { siteConfig } from "../site.config";
+
+const { author, links } = siteConfig;
+---
+
+<aside class="sidebar sticky" aria-label="Profile">
+  <div class="profile-box" itemscope itemtype="https://schema.org/Person">
+    <div class="author__avatar">
+      <img src={author.avatar} alt={author.name} width="240" height="240" itemprop="image" />
+    </div>
+
+    <div class="author__content">
+      <h1 class="author__name" itemprop="name">{author.name}</h1>
+      <p class="author__affiliation" itemprop="affiliation">{author.affiliation}</p>
+    </div>
+
+    <ul class="author__urls">
+      <li class="author__bio">{author.bio}</li>
+      <li class="author__location"><span aria-hidden="true">⌖</span>{author.location}</li>
+      {links.map((link) => (
+        <li>
+          <a href={link.href}>
+            <span class="link-icon" aria-hidden="true">{link.icon}</span>
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</aside>

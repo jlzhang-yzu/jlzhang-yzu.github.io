@@ -1,0 +1,17 @@
+---
+import { siteConfig } from "../site.config";
+---
+
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <ul class="visible-links">
+        {siteConfig.nav.map((item) => (
+          <li class:list={["masthead__menu-item", item.prominent && "masthead__menu-item--lg"]}>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
