@@ -6,7 +6,7 @@ I am an Associate Professor in School of Information Engineering at Yangzhou Uni
 
 # 🔥 News
 - *2026.09*: 🎉🎉 One paper is accepted by NIPS, congrats to Jiayao Wang!
-- *2026.08*: 🎉🎉 One paper is accepted by Usenix, congrats to Chengcheng Zhu!
+- *2026.08*: 🎉🎉 One paper is accepted by Usenix security, congrats to Chengcheng Zhu!
 - *2026.07*: 🎉🎉 One paper is accepted by TDSC, congrats to Ye Li!
 - *2026.07*: 🎉🎉 One paper is accepted by TIFS, congrats to Chengcheng Zhu!
 - *2026.06*: 🎉🎉 One paper is accepted by CVPR, congrats to Yuheng Li!
@@ -30,7 +30,7 @@ I am an Associate Professor in School of Information Engineering at Yangzhou Uni
 
 # 📝 Publications
 - `NIPS 2026` [HPE: Hallucinated Positive Entanglement for Backdoor Attacks in Federated Self-Supervised Learning](https://arxiv.org/abs/2602.02147), Jiayao Wang, Yang Song, Zhendong Zhao, **Jiale Zhang**, Qilin Wu, Wenliang Yuan, Junwu Zhu, Dongfang Zhao. (CCF-A)
-- `Usenix 2026` [Fend for Yourself! Backdoor Purification in Federated Graph Learning with an Evolving Knowledge Anchor](https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng), Chengcheng Zhu, Yunlong Mao, **Jiale Zhang**, Bosen Rao, Sheng Zhong. (CCF-A)
+- `Usenix security 2026` [Fend for Yourself! Backdoor Purification in Federated Graph Learning with an Evolving Knowledge Anchor](https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng), Chengcheng Zhu, Yunlong Mao, **Jiale Zhang**, Bosen Rao, Sheng Zhong. (CCF-A)
 - `TDSC 2026` [BDFirewall: Effective and Efficient Black-Box Backdoor Defense via Impact-based Purification](https://ieeexplore.ieee.org/abstract/document/11626056), Ye Li, Chengcheng zhu, Yanchao Zhao, **Jiale Zhang**, Xinyi Huang. (CCF-A)
 - `TIFS 2026` [Spa: Stealthy and Persistent Backdoor Attacks in Federated Learning via Feature-Space Alignment](https://ieeexplore.ieee.org/abstract/document/11612917), Chengcheng zhu,  Ye Li, Bosen Rao, Yulong Mao, **Jiale Zhang**, Tingting Wu. (CCF-A)
 - `CVPR 2026` [Meta-FC: Meta-Learning with Feature Consistency for Robust and Generalizable Watermarking](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Meta-FC_Meta-Learning_with_Feature_Consistency_for_Robust_and_Generalizable_Watermarking_CVPR_2026_paper.html), Yuheng Li, Weitong Chen, Chengcheng Zhu, **Jiale Zhang**, Chunpeng Ge, Di Wu, Guodong Long. (CCF-A)
